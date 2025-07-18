@@ -4,16 +4,11 @@ import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
 } from "@headlessui/react";
+
 import {
   Bars3Icon,
-  BellIcon,
   ShoppingBagIcon,
-  ShoppingCartIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
@@ -53,7 +48,7 @@ export default function Navbar() {
               </div>
 
               <div className=" justify-between items-center gap-4 hidden md:flex">
-                <button className="bg-white text-secondary px-4 py-2 rounded-lg font-semibold font-arabic ">
+                <button className="bg-white text-secondary cursor-pointer px-4 py-2 rounded-lg font-semibold font-arabic ">
                   اطلب الآن
                 </button>
                 <ShoppingBagIcon className="h-6 w-6" />
