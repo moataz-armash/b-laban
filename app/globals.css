@@ -13,7 +13,8 @@
   --font-mono: var(--font-geist-mono);
   --font-arabic: "Tajawal", Arial, Helvetica, sans-serif;
   --color-primary: #ace1f8;
-  --color-secondary: #16bfef;
+  --color-secondary: #007eba;
+  --color-tertiary: #16bfef;
   --color-accent: #0d9dd3;
   --color-accent-secondary: #046eab;
 }
