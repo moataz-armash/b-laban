@@ -1,8 +1,10 @@
 "use client";
 
 import FeaturedMenu from "./components/FeaturedMenu";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import WhyChooseUs from "./components/WhyChooseUs";
 
 export default function Home() {
   // const handleAdd = async () => {
@@ -28,6 +30,8 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <FeaturedMenu />
+      <WhyChooseUs />
+      <Footer />
     </>
   );
 }

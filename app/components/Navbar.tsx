@@ -17,7 +17,7 @@ import logo from "@/public/blaban-logo.png";
 
 const navigation = [
   { name: "تواصل معنا", href: "#", current: false },
-  { name: "فروعنا", href: "#", current: false },
+  { name: "من نحن", href: "#", current: false },
   { name: "قائمتنا", href: "#", current: false },
   { name: "الرئيسية", href: "#", current: true },
 ];

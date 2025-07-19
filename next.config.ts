@@ -15,6 +15,12 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/plus-assets/img/logos/**",
       },
+      {
+        protocol: "https",
+        hostname: "blaban.net",
+        port: "",
+        pathname: "/data/files/**",
+      },
     ],
   },
 };
