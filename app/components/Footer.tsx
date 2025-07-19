@@ -4,8 +4,8 @@ import logo from "@/public/blaban-logo.png";
 export default function Footer() {
   return (
     <div className="bg-white">
-      <div className="flex max-w-7xl mx-auto justify-between items-center p-4 ">
-        <div className="flex items-center justify-center gap-4">
+      <div className="flex flex-col md:flex-row max-w-7xl mx-auto justify-between items-center p-4 gap-4">
+        <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-8">
           <h1 className="font-arabic text-lg font-semibold text-accent-secondary">
             BLABAN
           </h1>

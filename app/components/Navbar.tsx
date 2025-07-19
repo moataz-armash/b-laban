@@ -16,10 +16,10 @@ import Image from "next/image";
 import logo from "@/public/blaban-logo.png";
 
 const navigation = [
-  { name: "تواصل معنا", href: "#", current: false },
-  { name: "من نحن", href: "#", current: false },
-  { name: "قائمتنا", href: "#", current: false },
-  { name: "الرئيسية", href: "#", current: true },
+  { name: "تواصل معنا", href: "/contact", current: false },
+  { name: "من نحن", href: "/about", current: false },
+  { name: "قائمتنا", href: "/menu", current: false },
+  { name: "الرئيسية", href: "/", current: true },
 ];
 
 export default function Navbar() {
