@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
         <h1 className="font-arabic text-xl text-white font-semibold">
           لماذا نحن ؟
         </h1>
-        <p className="font-arabic text-white">
+        <p className="font-arabic text-white text-center">
           نحن نقدم أفضل المنتجات بأعلى جودة وبأسعار تنافسية
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
@@ -41,7 +41,9 @@ export default function WhyChooseUs() {
               <h2 className="font-arabic text-lg font-semibold text-white">
                 {feature.name}
               </h2>
-              <p className="font-arabic text-white">{feature.description}</p>
+              <p className="font-arabic text-white text-center">
+                {feature.description}
+              </p>
             </div>
           ))}
         </div>

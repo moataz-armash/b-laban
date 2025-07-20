@@ -51,7 +51,7 @@ export default function Navbar() {
                 <button className="bg-white text-secondary cursor-pointer px-4 py-2 rounded-lg font-semibold font-arabic ">
                   اطلب الآن
                 </button>
-                <ShoppingBagIcon className="h-6 w-6" />
+                <ShoppingBagIcon className="h-6 w-6 text-white" />
               </div>
 
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">

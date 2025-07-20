@@ -1,11 +1,11 @@
 export default function ContactSection() {
   return (
-    <div className="bg-white h-full">
+    <div className="bg-white h-full my-8 mx-8">
       <h2 className="text-3xl font-bold text-center mb-6 text-secondary font-arabic">
         اتصل بنا
       </h2>
-      <div className="flex gap-8 p-4 max-w-7xl mx-auto">
-        <form className="flex-1 mx-auto">
+      <div className="flex flex-col md:flex-row gap-8 p-4 max-w-[80%] mx-auto md:max-w-7xl">
+        <form className="flex-1">
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-700 text-right">
               الاسم
@@ -40,12 +40,10 @@ export default function ContactSection() {
         </form>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109227.63933269233!2d30.02853279411261!3d31.182926731224086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c5374e029187%3A0x93ca382dd99ee247!2z2Kgg2YTYqNmGINmF2K3Yt9mHINin2YTYsdmF2YQ!5e0!3m2!1sar!2seg!4v1752961777421!5m2!1sar!2seg"
-          width="400"
-          height="400"
           style={{ border: 0, borderRadius: "15px" }}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="flex-1"></iframe>
+          className="flex-1 w-full h-full md:w-96 md:h-96"></iframe>
       </div>
     </div>
   );
